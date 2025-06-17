@@ -16,9 +16,9 @@ BlenderMCP connects Blender to GitHub Copilot through the Model Context Protocol
 
 ### Prerequisites
 
-- [Visual Studio Code](https://code.visualstudio.com/Download)
-- [GitHub Copilot](https://aka.ms/github/copilot)
-- [Blender 3.0 or newer](https://www.blender.org/download/)
+- <a href="https://code.visualstudio.com/Download" target="_blank">Visual Studio Code</a>
+- <a href="https://aka.ms/github/copilot" target="_blank">GitHub Copilot</a>
+- <a href="https://www.blender.org/download/" target="_blank">Blender 3.0 or newer</a>
 - Python 3.10 or newer (installation steps below)
 - UV package manager (installation steps below)
 
@@ -68,11 +68,11 @@ Then add UV to your PATH:
 $env:Path = "C:\Users\$env:USERNAME\.local\bin;$env:Path"
 ```
 
-For other operating systems, installation instructions are available on the UV website: [Install UV](https://docs.astral.sh/uv/getting-started/installation/)
+For other operating systems, installation instructions are available on the UV website: <a href="https://docs.astral.sh/uv/getting-started/installation/" target="_blank">Install UV</a>
 
 ### Installing the Blender Addon
 
-1. Download the `addon.py` file from [this link](https://raw.githubusercontent.com/ahujasid/blender-mcp/refs/heads/main/addon.py) and save it to your computer
+1. Download the `addon.py` file from <a href="https://raw.githubusercontent.com/ahujasid/blender-mcp/refs/heads/main/addon.py" target="_blank">this link</a> and save it to your computer
 2. Open Blender
 3. Go to Edit > Preferences > Add-ons
 4. Click "Install..." and select the saved `addon.py` file
@@ -109,18 +109,18 @@ BlenderMCP allows GitHub Copilot to:
 - Create, delete, and modify 3D shapes
 - Apply or create materials for objects
 - Execute any Python code in Blender
-- Download models, assets, and HDRIs through [Poly Haven](https://polyhaven.com/)
-- Generate AI-powered 3D models through [Hyper3D Rodin](https://hyper3d.ai/)
+- Download models, assets, and HDRIs through <a href="https://polyhaven.com/" target="_blank">Poly Haven</a>
+- Generate AI-powered 3D models through <a href="https://hyper3d.ai/" target="_blank">Hyper3D Rodin</a>
 
 ### Example Commands
 
 Here are some examples of what you can ask GitHub Copilot to do:
 
-- "Create a low poly scene in a dungeon, with a dragon guarding a pot of gold" - [Demo](https://www.youtube.com/watch?v=DqgKuLYUv00)
-- "Create a beach vibe using HDRIs, textures, and models like rocks and vegetation from Poly Haven" - [Demo](https://www.youtube.com/watch?v=I29rn92gkC4)
-- "Given this reference image, create a Blender scene that matches it" - [Demo](https://www.youtube.com/watch?v=FDRb03XPiRo)
+- "Create a low poly scene in a dungeon, with a dragon guarding a pot of gold" - <a href="https://www.youtube.com/watch?v=DqgKuLYUv00" target="_blank">Demo</a>
+- "Create a beach vibe using HDRIs, textures, and models like rocks and vegetation from Poly Haven" - <a href="https://www.youtube.com/watch?v=I29rn92gkC4" target="_blank">Demo</a>
+- "Given this reference image, create a Blender scene that matches it" - <a href="https://www.youtube.com/watch?v=FDRb03XPiRo" target="_blank">Demo</a>
 - "Generate a 3D model of a garden gnome through Hyper3D"
-- "Get information about the current scene, and make a three.js sketch from it" - [Demo](https://www.youtube.com/watch?v=jxbNI5L7AH8)
+- "Get information about the current scene, and make a three.js sketch from it" - <a href="https://www.youtube.com/watch?v=jxbNI5L7AH8" target="_blank">Demo</a>
 - "Make this car red and metallic" 
 - "Create a sphere and place it above the cube"
 - "Make the lighting look like a professional studio"
@@ -134,4 +134,4 @@ Here are some examples of what you can ask GitHub Copilot to do:
 
 ## Disclaimer
 
-This is a third-party integration and not officially made or endorsed by Blender. Developed by [Siddharth](https://x.com/sidahuj).
+This is a third-party integration and not officially made or endorsed by Blender. Developed by <a href="https://x.com/sidahuj" target="_blank">Siddharth</a>.
